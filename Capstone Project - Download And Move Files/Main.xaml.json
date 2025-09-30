@@ -1,0 +1,21 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "argIn_LocalOneDrive",
+      "DisplayName": "argIn_LocalOneDrive",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "C:\\Users\\vohoa\\OneDrive\\",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
