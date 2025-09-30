@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>⏳ Pending Travel Approval</title>
+  </head>
+  <body style="margin:0; padding:0; background-color:#f9fafb; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
+    <div style="max-width: 700px; margin: auto; padding: 30px;">
+      
+      <!-- HEADER -->
+      <div style="background-color:#fef3c7; border: 2px dashed #f59e0b; padding: 20px; border-radius: 12px; text-align: center;">
+        <h1 style="margin: 0; font-size: 28px; color: #92400e;">⏳ Request Awaiting Review</h1>
+        <p style="margin: 8px 0 0; font-size: 15px; color: #78350f;">Your travel request is in the queue</p>
+      </div>
+
+      <!-- SYSTEM ALERT BOX -->
+      <div style="margin-top: 25px; background-color: #fff7ed; padding: 20px; border-left: 6px solid #f59e0b; border-radius: 8px;">
+        <p style="margin: 0 0 12px;">Hi <strong>{1}</strong>,</p>
+        <p style="margin: 0 0 12px;">
+          This is a quick update to let you know that your travel request is currently 
+          <span style="font-weight: bold; color: #d97706;">pending approval</span>.
+        </p>
+        <p style="margin: 0 0 12px;">
+          Our HR team is reviewing your details and will notify you once the status changes.
+        </p>
+        <p style="margin: 0;">Meanwhile, feel free to verify the information submitted below.</p>
+      </div>
+
+      <!-- DETAILS SECTION -->
+      <div style="margin-top: 30px;">
+        <h2 style="color: #1e293b; font-size: 18px; margin-bottom: 15px;">📋 Your Submitted Info</h2>
+        <table width="100%" cellpadding="10" cellspacing="0" style="border-collapse: collapse; background-color: #ffffff; border-radius: 12px; overflow: hidden;">
+          <tr>
+            <td style="background:#f1f5f9;"><strong>Year:</strong> {0}</td>
+            <td style="background:#f1f5f9;"><strong>Name:</strong> {1}</td>
+          </tr>
+          <tr>
+            <td><strong>Project:</strong> {2}</td>
+            <td><strong>Manager:</strong> {3}</td>
+          </tr>
+          <tr>
+            <td style="background:#f1f5f9;"><strong>Position:</strong> {4}</td>
+            <td style="background:#f1f5f9;"><strong>Classification:</strong> {5}</td>
+          </tr>
+          <tr>
+            <td><strong>Type:</strong> {6}</td>
+            <td><strong>Departure:</strong> {7}</td>
+          </tr>
+          <tr>
+            <td style="background:#f1f5f9;"><strong>Return:</strong> {8}</td>
+            <td style="background:#f1f5f9;"><strong>Extended Return:</strong> {9}</td>
+          </tr>
+          <tr>
+            <td><strong>From:</strong> {10}</td>
+            <td><strong>To:</strong> {11}</td>
+          </tr>
+          <tr>
+            <td style="background:#f1f5f9;"><strong>Billing Code:</strong> {12}</td>
+            <td style="background:#f1f5f9;"><strong>Status:</strong> <span style="color:#d97706; font-weight:bold;">{13}</span></td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong>Email:</strong> {14}</td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- FOOTER -->
+      <div style="margin-top: 30px; text-align: center;">
+        <p style="color: #475569; font-style: italic; margin-bottom: 6px;">
+          If something needs to be updated, don’t hesitate to reach out.
+        </p>
+        <p style="color: #475569; font-style: italic;"><strong>— HR Admin Team</strong></p>
+      </div>
+    </div>
+  </body>
+</html>
